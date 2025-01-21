@@ -31,7 +31,6 @@ jobs:
         with:
           path: |
             dispatch
-            package.json
   deploy:
     needs: build
     runs-on: ubuntu-latest
