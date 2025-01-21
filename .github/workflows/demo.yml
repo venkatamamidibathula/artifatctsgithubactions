@@ -29,6 +29,7 @@ jobs:
       - name: upload to artifactory
         uses: actions/upload-artifact@v4
         with:
+          name: dist-files
           path: |
             dist
   deploy:
